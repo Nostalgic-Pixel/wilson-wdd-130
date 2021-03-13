@@ -30,15 +30,22 @@ body {
     font-size: 62.5%;
 }
 
-header {
+header  {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto auto 1fr; /**ADDED AN AUTO**/
     font-size: var(--font-size);
     padding: var(--spacing);
     border-bottom: 1px solid var(--border-color);
     color: var(--alt-font-color);
     background-color: var(--alt-background-color);
+}
+
+/**ADDED**/
+#company-name {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 header a {

@@ -347,3 +347,40 @@
   [hidden] {
     display: none;
   }
+
+
+
+
+
+  /********************
+          ADDED
+  ********************/
+
+  #banner-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  section.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  section .text-wrapper {
+    margin: 30px;
+    padding: 30px;
+  }
+
+  section.two-cols .left-column{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  section.two-cols .right-column{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  section.full-col {
+    text-align: center;
+  }
