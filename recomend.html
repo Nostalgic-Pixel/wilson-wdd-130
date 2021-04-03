@@ -14,7 +14,12 @@
           border: 5px solid gray;
           border-collapse: collapse;
         }
-        </style>
+        
+        th, td {
+            padding: 15px;
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -57,32 +62,38 @@
     
     <main>
         <h1>
-                Recomendation of the Day!
+                Recomendation of the Day!<br>
+                [Salt Lake City]
         </h1>
 
-        <div id="banner-wrapper">
-            <img id="banner" src="assets\recomend\Salt Lake City.jpg">
-        </div>
+        
 
-        <center>
-            <h1>Salt Lake City (USA)</h1>
-        <table>
-            <tr>
-                <th>Location:</th>
-                <th>Utah</th>
-            </tr>
-            
-            <tr>
-                <td>Language:</td>
-                <td>English</td>
-            </tr>
 
-            <tr>
-                <td>Population:</td>
-                <td>197,756</td>
-            </tr>
-        </table>
-        </center>
+        <section class="two-cols">
+            <div class="left-column">
+                <img id="banner" src="assets\recomend\Salt Lake City (Final).png">
+            </div>
+
+            <div>
+                <table style="width:100%">
+                    <tr>
+                        <th>Location:</th>
+                        <th>Utah</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>Language:</td>
+                        <td>English</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Population:</td>
+                        <td>197,756</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
 
      
     </main>
